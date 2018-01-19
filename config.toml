@@ -1,0 +1,28 @@
+baseURL = "http://dattack.lv/"
+defaultContentLanguage = "lv"
+defaultContentLanguageInSubdir = true
+copyright = "Krisjanis Rijnieks"
+
+[params]
+copyrightUrl = "https://rijnieks.com"
+
+[languages]
+[languages.lv]
+languageName = "Latviski"
+languageCode = "lv-LV"
+title = "Dattack"
+subtitle = "Staro Rīga 2018 projektu darbnīca"
+description = "Piedalies, iedvesmojies un veido projektus ikgadējam gaismas festivālam “Staro Rīga”, kurš izgaismo Rīgu vienā no gada tumšākajiem mēnešiem – novembrī."
+dateText = "2018. gada 3. un 4. marts"
+venue = { name = "Rīgas Kongresu nams" }
+translations = { apply = "Pieteikties!", readMore = "Lasīt vairāk", experts = "Eksperti" }
+
+[languages.en]
+languageName = "English"
+languageCode = "en-US"
+title = "Dattack"
+subtitle = "Staro Riga 2018 project workshop"
+description = "Join the workshop, get inspired and create projects for the annual light festival Staro Riga that takes place in Riga, Latvia during one of the darkest months of the year – November!"
+dateText = "3 and 4 March 2018"
+venue = { name= "Riga Congress Centre" }
+translations = { apply = "Apply now!", readMore = "Read more", experts = "Experts" }
