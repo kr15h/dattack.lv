@@ -2,6 +2,15 @@
 <html lang="{{ .Site.Params.languageCode }}">
 <head>
 	<title>{{ .Site.Title }} :: {{ .Site.Params.subtitle }}</title>
+	
+	<meta name="description" content="{{ .Site.Params.description }}">
+	<meta name="keywords" content="{{ delimit .Site.Params.keywords ", " }}">
+	<meta name="author" content="{{ .Site.Params.author }}">
+	
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+	<meta name="apple-mobile-web-app-title" content="{{ .Site.Title }}">
+
 	<link href="https://fonts.googleapis.com/css?family=Bangers|Roboto+Condensed|Roboto:400,500,700" rel="stylesheet">
 	<link rel="stylesheet" href="/libs/bootstrap/bootstrap.min.css">
 	<link rel="stylesheet" href="/libs/font-awesome/css/font-awesome.min.css">
