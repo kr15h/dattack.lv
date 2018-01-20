@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="{{ .Site.Params.languageCode }}">
+<head>
+	<title>{{ .Title }} :: {{ .Site.Title }}</title>	
+	{{ partial "head/meta.html" . }}
+	{{ partial "head/css.html" . }}
+</head>
+<body class="padding-top-lg">
+<div class="container padding-top-lg padding-bottom-lg">
+	<div class="padding-top-md padding-bottom-md">
+		{{ partial "nav/languages.html" . }}
+	</div>
+
+	{{ partial "header.html" . }}
+
+	<div class="content padding-top-lg padding-bottom-lg">
+		<div class="h2 outer">
+			<div class="h2 inner">
+				<h2>{{ .Title }}</h2>
+			</div>
+		</div>
+
+		{{ .Content }}
+
+		{{ if ne .Params.applyLink "" }}
+			<a class="btn btn-primary cta" href="{{ .Params.applyLink }}" title="{{ .Params.applyLabel }}">{{ .Params.applyLabel }}</a>
+		{{ end }}
+	</div><!-- /.content -->
+
+	{{ partial "footer.html" . }}
+
+</div><!-- /.container -->
+</body>
+</html>

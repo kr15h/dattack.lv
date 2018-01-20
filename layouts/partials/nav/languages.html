@@ -1,13 +1,15 @@
 <nav class="languages">
+	
 	<ul>
 		{{ $language := .Page.Lang }}
 		{{ $section := .Section }}
+		{{ $page := .File.TranslationBaseName }}
 		{{ range .Site.Languages  }}
 			<li>
 			{{ if eq .Lang $language }}
 				<span>{{ .Params.languageName }}</span>
 			{{ else }}
-				<a href="/{{ .Lang }}/{{ $section }}">{{ .Params.languageName }}</a>
+				<a href="/{{ .Lang }}{{ if ne $section "" }}/{{ $section }}{{ end }}{{ if ne $page "" }}/{{ $page }}{{ end }}">{{ .Params.languageName }}</a>
 			{{ end }}
 			</li>
 		{{ end }}
