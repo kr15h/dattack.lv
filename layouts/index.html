@@ -47,7 +47,11 @@
 		<a href="#" class="btn btn-primary cta"><span>{{ .Site.Params.translations.apply }}</span></a>
 	</header>
 
-	<h2><span class="decorator left"></span>{{ .Site.Params.translations.experts }}<span class="decorator right"></span></h2>
+	<div class="h2 outer">
+		<div class="h2 inner">
+			<h2>{{ .Site.Params.translations.experts }}</h2>
+		</div>
+	</div>
 
 	<div class="expert-list">
 		{{ range .Site.Pages }}
