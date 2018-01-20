@@ -1,0 +1,15 @@
+<nav class="languages">
+	<ul>
+		{{ $language := .Page.Lang }}
+		{{ $section := .Section }}
+		{{ range .Site.Languages  }}
+			<li>
+			{{ if eq .Lang $language }}
+				<span>{{ .Params.languageName }}</span>
+			{{ else }}
+				<a href="/{{ .Lang }}/{{ $section }}">{{ .Params.languageName }}</a>
+			{{ end }}
+			</li>
+		{{ end }}
+	</ul>
+</nav>

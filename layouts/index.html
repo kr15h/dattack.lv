@@ -1,80 +1,51 @@
 <!DOCTYPE html>
 <html lang="{{ .Site.Params.languageCode }}">
 <head>
-	<title>{{ .Site.Title }} :: {{ .Site.Params.subtitle }}</title>
-	
-	<meta name="description" content="{{ .Site.Params.description }}">
-	<meta name="keywords" content="{{ delimit .Site.Params.keywords ", " }}">
-	<meta name="author" content="{{ .Site.Params.author }}">
-	
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width">
-	<meta name="apple-mobile-web-app-title" content="{{ .Site.Title }}">
-
-	<link href="https://fonts.googleapis.com/css?family=Bangers|Roboto+Condensed|Roboto:400,500,700" rel="stylesheet">
-	<link rel="stylesheet" href="/libs/bootstrap/bootstrap.min.css">
-	<link rel="stylesheet" href="/libs/font-awesome/css/font-awesome.min.css">
-	<link rel="stylesheet" href="/css/main.css?v={{ now.Unix }}">
+	<title>{{ .Site.Title }} :: {{ .Site.Params.subtitle }}</title>	
+	{{ partial "head/meta.html" . }}
+	{{ partial "head/css.html" . }}
 </head>
-<body>
-<div class="container">
-	<nav class="languages">
-		<ul>
-			{{ $language := .Page.Lang }}
-			{{ $section := .Section }}
-			{{ range .Site.Languages  }}
-				<li>
-				{{ if eq .Lang $language }}
-					<span>{{ .Params.languageName }}</span>
-				{{ else }}
-					<a href="/{{ .Lang }}/{{ $section }}">{{ .Params.languageName }}</a>
-				{{ end }}
-				</li>
-			{{ end }}
-		</ul>
-	</nav>
+<body class="padding-top-lg">
+<div class="container padding-top-lg padding-bottom-lg">
+	<div class="padding-top-md padding-bottom-md">
+		{{ partial "nav/languages.html" . }}
+	</div>
 
-	<header>
-		<div class="brand">
-			<h1 class="title">{{ .Site.Title }}</h1>
-			<img src="/images/dattack-logo.svg" alt="Dattack Logo" class="logo">
-		</div>
+	{{ partial "header.html" . }}
 
-		<p class="subtitle">{{ .Site.Params.subtitle }}</p>
-		<p class="date">{{ .Site.Params.dateText }}</p>
-		<p class="venue">{{ .Site.Params.venue.name }}</p>
-		<p class="description">{{ .Site.Params.description }}</p>
+	<div class="intro padding-top-md padding-bottom-lg">
+		<p class="description margin-bottom-lg">{{ .Site.Params.description }}</p>
 		<a href="#" class="btn btn-primary cta"><span>{{ .Site.Params.translations.apply }}</span></a>
-	</header>
+	</div>
 
-	<div class="h2 outer">
-		<div class="h2 inner">
-			<h2>{{ .Site.Params.translations.experts }}</h2>
+	<div class="content padding-top-lg">
+		<div class="h2 outer padding-bottom-md">
+			<div class="h2 inner">
+				<h2>{{ .Site.Params.translations.experts }}</h2>
+			</div>
 		</div>
-	</div>
-
-	<div class="expert-list">
-		{{ range .Site.Pages }}
-			{{ if eq .Section "experts" }}
-			{{ if ne .Title "Experts" }}
-				
-				<div class="expert-item">
-					<div class="image" style="background-image: url({{ .Params.image }})"></div>
-					<h3>{{ .Title }}</h3>
-					<p class="location">{{ .Params.location }}</p>
-					<p class="bio">{{ .Content }}</p>
-					<p class="web"><a href="{{ .Params.web }}" target="_blank" title="{{ .Title }}"><i class="fa fa-flash"></i></a></p>
-				</div>
-
+	
+		<div class="expert-list">
+			{{ range .Site.Pages }}
+				{{ if eq .Section "experts" }}
+				{{ if ne .Title "Experts" }}
+					
+					<div class="expert-item padding-bottom-md margin-top-md">
+						<div class="image" style="background-image: url({{ .Params.image }})"></div>
+						<h3 class="margin-top-md margin-bottom-sm">{{ .Title }}</h3>
+						<p class="location margin-bottom-sm">{{ .Params.location }}</p>
+						<p class="bio">{{ .Content }}</p>
+						<p class="web margin-top-sm"><a href="{{ .Params.web }}" target="_blank" title="{{ .Title }}"><i class="fa 	fa-flash"></i></a></p>
+					</div>
+	
+				{{ end }}
+				{{ end }}
 			{{ end }}
-			{{ end }}
-		{{ end }}
-	</div>
+		</div>
+	</div><!-- /.content -->
 
-	<footer>
-		<p><i class="fa fa-copyright"></i> <a title="{{.Site.Copyright}}" href="{{ .Site.Params.copyrightUrl }}" target="_blank">{{ .Site.Copyright }}</a> {{ now.Format "2006" }}</p>
-		<p>Staro Rīga 2018</p>
-	</footer>
-</div>
+	{{ partial "footer.html" . }}
+
+</div><!-- /.container -->
 </body>
 </html>

@@ -11,7 +11,6 @@ body {
 	text-align: center;
 	background: #F2F2F2;
 	color: #333333;
-	margin-top: 40px;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -47,8 +46,6 @@ h2 {
 
 h3 {
 	font-size: 36px;
-	margin-top: 20px;
-	margin-bottom: 10px;
 }
 
 p {
@@ -60,10 +57,6 @@ p.subtitle {
 	font-size: 36px;
 	line-height: 1;
 	font-family: 'Bangers', cursive;
-	padding: 0;
-	margin: 0;
-	padding-top: 10px;
-	padding-bottom: 10px;
 }
 
 @media (min-width: 768px) {
@@ -77,33 +70,20 @@ p.date, p.venue, p.location {
 }
 
 p.date {
-	padding-top: 10px;
+
 }
 
 p.venue {
-	padding-bottom: 20px;
+
 }
 
 p.location {
-	margin-top: 10px;
-	margin-bottom: 10px;
+
 }
 
 p.description {
 	font-size: 28px;
 	font-weight: 500;
-	padding-top: 20px;
-	padding-bottom: 20px;
-}
-
-p.bio {
-	margin-top: 10px;
-	margin-bottom: 10px;
-}
-
-p.web {
-	margin-top: 10px;
-	margin-bottom: 10px;
 }
 
 a,
@@ -139,33 +119,22 @@ nav li:last-child::before{
 }
 
 nav.languages {
-	padding-top: 40px;
-	padding-bottom: 40px;
+
 }
 
 nav.languages span {
 	color: #4C4C4C;
 	text-decoration: none;
 	border-bottom: 3px solid #F3DC3D;
-	padding-bottom: 2px;
 }
 
 div.container {
 	max-width: 768px;
 }
 
-header {
-	padding-top: 40px;
-	padding-bottom: 40px;
-}
-
 header .logo {
 	width: 75%;
 	height: auto;
-}
-
-header .brand {
-	padding-bottom: 20px;
 }
 
 @media (min-width: 768px) {
@@ -177,9 +146,6 @@ header .brand {
 
 footer {
 	border-top: 2px dotted #F3DC3D;
-	padding-top: 20px;
-	margin-top: 20px;
-	padding-bottom: 80px;
 }
 
 div.image {
@@ -191,17 +157,12 @@ div.image {
 	background-position: center center;
 	margin-left: auto;
 	margin-right: auto;
-	margin-top: 10px;
 }
 
 div.expert-list {
-	padding-top: 20px;
-	padding-bottom: 20px;
 }
 
 div.expert-item {
-	padding-top: 10px;
-	padding-bottom: 10px;
 }
 
 .btn {
@@ -235,10 +196,57 @@ div.expert-item {
 .cta {
 	font-size: 36px;
 	transform: skew(-8deg);
-	margin-top: 20px;
 }
 
 .cta span {
 	display: block;
 	transform: skew(8deg);
+}
+
+.margin-top-sm {
+	margin-top: 10px;
+}
+
+.margin-top-md {
+	margin-top: 20px;
+}
+
+.margin-top-lg {
+	margin-top: 40px;
+}
+
+.margin-bottom-sm {
+	margin-bottom: 10px;
+}
+
+.margin-bottom-md {
+	margin-bottom: 20px;
+}
+
+.margin-bottom-lg {
+	margin-bottom: 40px;
+}
+
+.padding-top-sm {
+	padding-top: 10px;
+}
+
+.padding-top-md {
+	padding-top: 20px;
+}
+
+.padding-top-lg {
+	padding-top: 40px;
+}
+
+.padding-bottom-sm {
+	padding-bottom: 10px;
+}
+
+.padding-bottom-md {
+	padding-bottom: 20px;
+}
+
+.padding-bottom-lg {
+	padding-bottom: 40px;
 }
