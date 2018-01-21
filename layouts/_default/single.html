@@ -5,15 +5,15 @@
 	{{ partial "head/meta.html" . }}
 	{{ partial "head/css.html" . }}
 </head>
-<body class="padding-top-lg">
-<div class="container padding-top-lg padding-bottom-lg">
-	<div class="padding-top-md padding-bottom-md">
+<body>
+<div class="container">
+	<div>
 		{{ partial "nav/languages.html" . }}
 	</div>
 
 	{{ partial "header.html" . }}
 
-	<div class="content padding-top-lg padding-bottom-lg">
+	<div class="content">
 		<div class="h2 outer">
 			<div class="h2 inner">
 				<h2>{{ .Title }}</h2>
@@ -21,11 +21,13 @@
 		</div>
 
 		{{ .Content }}
-
-		{{ if ne .Params.applyLink "" }}
-			<a class="btn btn-primary cta" href="{{ .Params.applyLink }}" title="{{ .Params.applyLabel }}">{{ .Params.applyLabel }}</a>
-		{{ end }}
 	</div><!-- /.content -->
+
+	{{ if ne .Params.applyLink "" }}
+		<div class="apply-link">
+			<a class="btn btn-primary cta" href="{{ .Params.applyLink }}" title="{{ .Params.applyLabel }}">{{ .Params.applyLabel }}</a>
+		</div>
+	{{ end }}
 
 	{{ partial "footer.html" . }}
 

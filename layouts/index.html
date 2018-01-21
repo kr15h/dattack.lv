@@ -5,21 +5,21 @@
 	{{ partial "head/meta.html" . }}
 	{{ partial "head/css.html" . }}
 </head>
-<body class="padding-top-lg">
-<div class="container padding-top-lg padding-bottom-lg">
-	<div class="padding-top-md padding-bottom-md">
+<body>
+<div class="container">
+	<div>
 		{{ partial "nav/languages.html" . }}
 	</div>
 
 	{{ partial "header.html" . }}
 
-	<div class="intro padding-top-md padding-bottom-lg">
-		<p class="description margin-bottom-lg">{{ .Site.Params.description }}</p>
+	<div class="intro">
+		<p class="description">{{ .Site.Params.description }}</p>
 		<a href="./about" class="btn btn-primary cta"><span>{{ .Site.Params.translations.apply }}</span></a>
 	</div>
 
-	<div class="content padding-top-lg">
-		<div class="h2 outer padding-bottom-md">
+	<div class="content">
+		<div class="h2 outer">
 			<div class="h2 inner">
 				<h2>{{ .Site.Params.translations.experts }}</h2>
 			</div>
@@ -30,12 +30,12 @@
 				{{ if eq .Section "experts" }}
 				{{ if ne .Title "Experts" }}
 					
-					<div class="expert-item padding-bottom-md margin-top-md">
+					<div class="expert-item">
 						<div class="image" style="background-image: url({{ .Params.image }})"></div>
-						<h3 class="margin-top-md margin-bottom-sm">{{ .Title }}</h3>
-						<p class="location margin-bottom-sm">{{ .Params.location }}</p>
+						<h3>{{ .Title }}</h3>
+						<p class="location">{{ .Params.location }}</p>
 						<p class="bio">{{ .Content }}</p>
-						<p class="web margin-top-sm"><a href="{{ .Params.web }}" target="_blank" title="{{ .Title }}"><i class="fa 	fa-flash"></i></a></p>
+						<p class="web"><a href="{{ .Params.web }}" target="_blank" title="{{ .Title }}"><i class="fa 	fa-flash"></i></a></p>
 					</div>
 	
 				{{ end }}
