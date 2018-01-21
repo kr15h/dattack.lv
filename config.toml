@@ -7,6 +7,7 @@ copyright = "Krisjanis Rijnieks"
 copyrightUrl = "https://rijnieks.com"
 keywords = ["data", "attack", "light", "festival", "riga", "2018", "workshop", "conference", "talks", "experts", "machine learning", "ai", "data visualisation", "interactive", "digital"]
 author = "Krisjanis Rijnieks"
+facebook = { image = "images/facebook-og-image-80.jpg" }
 
 [languages]
 [languages.lv]
