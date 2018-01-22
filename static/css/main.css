@@ -101,12 +101,15 @@ a:focus,
 a:active {
 	color: #4C4C4C;
 	text-decoration: none;
+	border-bottom: 3px solid #F2CF3D;
+	padding-bottom: 2px;
 }
 
 a:hover,
 a:visited:hover {
 	color: #999999;
 	text-decoration: none;
+	border-bottom: 2px solid #D8BA3A;
 }
 
 nav ul {
@@ -134,8 +137,7 @@ nav.languages {
 
 nav.languages span {
 	color: #4C4C4C;
-	text-decoration: none;
-	border-bottom: 3px solid #F3DC3D;
+	font-weight: 500;
 }
 
 div.container {
@@ -146,6 +148,10 @@ div.intro {
 	display: inline-block;
 	margin-top: 40px;
 	margin-bottom: 40px;
+}
+
+div.intro a, div.intro a:hover {
+	border: 0;
 }
 
 div.content {
@@ -170,6 +176,10 @@ header {
 	display: inline-block;
 	margin-top: 40px;
 	margin-bottom: 40px;
+}
+
+header a, header a:hover {
+	border: 0;
 }
 
 header .logo {
