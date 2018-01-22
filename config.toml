@@ -9,6 +9,7 @@ author = "Krisjanis Rijnieks"
 authorLink = "https://rijnieks.com"
 copyright = "Staro Rīga"
 copyrightEmail = "info@staroriga.lv"
+copyrightWebsite = "http://staroriga.lv"
 facebook = { image = "images/facebook-og-image-80.jpg" }
 venueAddress = "K. Valdemāra iela 5, Rīga, LV-1010"
 

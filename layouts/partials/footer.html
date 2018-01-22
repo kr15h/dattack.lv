@@ -4,7 +4,7 @@
 	<div class="row">
 		<div class="col-sm-4">
 			<p><b><i class="fa fa-copyright"></i> {{ .Site.Copyright }} {{ now.Format "2006" }}</b></p>
-			<p>{{ .Site.Params.copyrightEmail }}</p>
+			<p><a href="{{ .Site.Params.copyrightWebsite }}" target="_blank">{{ .Site.Params.copyrightWebsite }}</a></p>
 		</div>
 		<div class="col-sm-4">
 			<p><b>{{ .Site.Params.translations.venue }}</b></p>
