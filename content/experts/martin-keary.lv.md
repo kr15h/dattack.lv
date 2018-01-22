@@ -2,7 +2,7 @@
 title: "Martin Keary"
 web: "https://www.martinkeary.com"
 image: "/images/martin-keary.jpg"
-location: "London, Apvienotā Karaliste"
+location: "Londona, Apvienotā Karaliste"
 weight: 20
 ---
 
