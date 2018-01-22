@@ -150,7 +150,8 @@ div.intro {
 	margin-bottom: 40px;
 }
 
-div.intro a, div.intro a:hover {
+div.intro a, div.intro a:hover,
+div.apply-link a, div.apply-link a:hover {
 	border: 0;
 }
 
