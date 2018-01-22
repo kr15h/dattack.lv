@@ -1,5 +1,5 @@
 ---
-title: "Kalma Visuals"
+title: "Kalma"
 web: "http://www.kalmalab.com"
 image: "/images/kalma-visuals.jpg"
 location: "Berlin, Germany"
