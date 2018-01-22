@@ -1,13 +1,16 @@
 baseURL = "http://dattack.lv/"
 defaultContentLanguage = "lv"
 defaultContentLanguageInSubdir = true
-copyright = "Krisjanis Rijnieks"
 
 [params]
 copyrightUrl = "https://rijnieks.com"
 keywords = ["data", "attack", "light", "festival", "riga", "2018", "workshop", "conference", "talks", "experts", "machine learning", "ai", "data visualisation", "interactive", "digital"]
 author = "Krisjanis Rijnieks"
+authorLink = "https://rijnieks.com"
+copyright = "Staro Rīga"
+copyrightEmail = "info@staroriga.lv"
 facebook = { image = "images/facebook-og-image-80.jpg" }
+venueAddress = "K. Valdemāra iela 5, Rīga, LV-1010"
 
 [languages]
 [languages.lv]
@@ -18,7 +21,7 @@ subtitle = "Staro Rīga 2018 projektu darbnīca"
 description = "Piedalies, iedvesmojies un veido projektus ikgadējam gaismas festivālam “Staro Rīga”, kurš izgaismo Rīgu vienā no gada tumšākajiem mēnešiem–novembrī."
 dateText = "2018. gada 3. un 4. marts"
 venue = { name = "Rīgas Kongresu nams" }
-translations = { apply = "Pieteikties!", readMore = "Lasīt vairāk", experts = "Eksperti" }
+translations = { apply = "Pieteikties!", readMore = "Lasīt vairāk", experts = "Eksperti", venue="Norises vieta", website="Web lapa", venueName="Rīgas Kongresu nams" }
 
 [languages.en]
 languageName = "English"
@@ -28,4 +31,4 @@ subtitle = "Staro Riga 2018 project workshop"
 description = "Join the workshop, get inspired and create projects for the annual light festival Staro Riga that takes place in Riga, Latvia during one of the darkest months of the year–November!"
 dateText = "3 and 4 March 2018"
 venue = { name= "Riga Congress Centre" }
-translations = { apply = "Apply now!", readMore = "Read more", experts = "Experts" }
+translations = { apply = "Apply now!", readMore = "Read more", experts = "Experts", venue="Venue", website="Website", venueName="Riga Congress Centre" }

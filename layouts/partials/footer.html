@@ -1,3 +1,18 @@
 <footer class="padding-top-md">
-	<p>Staro Rīga 2018</p>
+	
+
+	<div class="row">
+		<div class="col-sm-4">
+			<p><b><i class="fa fa-copyright"></i> {{ .Site.Copyright }} {{ now.Format "2006" }}</b></p>
+			<p>{{ .Site.Params.copyrightEmail }}</p>
+		</div>
+		<div class="col-sm-4">
+			<p><b>{{ .Site.Params.translations.venue }}</b></p>
+			<p>{{ .Site.Params.translations.venueName }}<br>{{ .Site.Params.venueAddress }}</p>
+		</div>
+		<div class="col-sm-4">
+			<p><b>{{ .Site.Params.translations.website }}</b></p>
+			<p><a target="_blank" href="{{ .Site.Params.authorLink }}">{{ .Site.Params.author }}</a></p>
+		</div>
+	</div>
 </footer>
