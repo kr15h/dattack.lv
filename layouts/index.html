@@ -1,12 +1,17 @@
 <!DOCTYPE html>
 <html lang="{{ .Site.Params.languageCode }}">
 <head>
+	{{ partial "head/analytics.html" . }}
 	<title>{{ .Site.Title }} :: {{ .Site.Params.subtitle }}</title>	
 	{{ partial "head/meta.html" . }}
 	{{ partial "head/css.html" . }}
+	{{ partial "head/scripts.html" . }}
 </head>
 <body>
+{{ partial "cookies.html" . }}
 <div class="container">
+
+
 	<div>
 		{{ partial "nav/languages.html" . }}
 	</div>
