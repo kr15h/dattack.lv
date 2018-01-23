@@ -36,7 +36,7 @@
 				{{ if ne .Title "Experts" }}
 					
 					<div class="expert-item">
-						<div class="image" style="background-image: url({{ .Params.image }})"></div>
+						<div class="image" style="background-image: url({{ .Params.image }}?v={{ now.Unix }})"></div>
 						<h3>{{ .Title }}</h3>
 						<p class="location">{{ .Params.location }}</p>
 						<p class="bio">{{ .Content }}</p>

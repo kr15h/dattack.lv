@@ -1,8 +1,8 @@
 ---
-title: "Margo Zalīte"
+title: "Margo Zālīte"
 web: "http://zalite.net"
 image: "/images/margo-zalite.jpg"
-location: "Rīga, Latvija"
+location: "Berlīne, Vācija"
 weight: 50
 ---
 

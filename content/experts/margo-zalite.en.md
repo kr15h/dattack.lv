@@ -2,7 +2,7 @@
 title: "Margo Zalite"
 web: "http://zalite.net"
 image: "/images/margo-zalite.jpg"
-location: "Riga, Latvia"
+location: "Berlin, Germany"
 weight: 50
 ---
 
