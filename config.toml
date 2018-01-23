@@ -11,10 +11,9 @@ copyright = "Staro Rīga"
 copyrightEmail = "info@staroriga.lv"
 copyrightWebsite = "http://staroriga.lv"
 facebook = { 
-	image = "images/facebook-og-image-80.jpg"
-	type = "website"
-	app_id = "169069167040736"
-}
+	image = "images/facebook-og-image-80.jpg",
+	type = "website",
+	app_id = "169069167040736"}
 venueAddress = "K. Valdemāra iela 5, Rīga, LV-1010"
 
 [languages]
