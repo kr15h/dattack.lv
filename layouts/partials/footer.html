@@ -1,6 +1,4 @@
 <footer class="padding-top-md">
-	
-
 	<div class="row">
 		<div class="col-sm-4">
 			<p><b><i class="fa fa-copyright"></i> {{ .Site.Copyright }} {{ now.Format "2006" }}</b></p>
@@ -13,6 +11,10 @@
 		<div class="col-sm-4">
 			<p><b>{{ .Site.Params.translations.website }}</b></p>
 			<p><a target="_blank" href="{{ .Site.Params.authorLink }}">{{ .Site.Params.author }}</a></p>
+		</div>
+		<div class="col-sm-12">
+			<p><b>{{ .Site.Params.translations.social }}</b></p>
+			<p><a class="icon" title="{{ .Site.Params.translations.facebookLinkTitle }}" href="{{ .Site.Params.facebook.event_url }}"><i class="fa fa-facebook-square"></i></a></p>
 		</div>
 	</div>
 </footer>

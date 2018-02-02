@@ -112,6 +112,11 @@ a:visited:hover {
 	border-bottom: 2px solid #D8BA3A;
 }
 
+a.icon {
+	font-size: 2em;
+	line-height: 1;
+}
+
 nav ul {
 	margin: 0;
 	padding: 0;
