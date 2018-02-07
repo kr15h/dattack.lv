@@ -5,7 +5,7 @@ applyLabel: "To application form!"
 applyLink: "https://goo.gl/forms/8qEgUOsqEfAYvp8H3"
 ---
 
-The topic of the Dattack is creative use of data. How can we use open data sources for creative audio-visual expression? Where to look for data, what are the methods used to work with them; what tools can help turning data into visual, sonic and interactive experiences? Everybody is invited: public servants, visual and audio artists, designers, architects, developers and statisticians. 
+The topic of the Dattack is creative use of data. How can we use open data sources for creative audio-visual expression? Where to look for data, what are the methods used to work with them; what tools can help turning data into visual, sonic and interactive experiences? Everybody is invited: visual and audio artists, designers, architects, developers and statisticians. 
 
 3 of March is the international Open Data Day. Dattack is taking part in the celebration and is going to be one of the events supporting Open Data Day internationally. Open Data Day is an annual celebration of open data all over the world. For the seventh time in history, groups from around the world will create local events on the day where they will use open data in their communities. It is an opportunity to show the benefits of open data and encourage the adoption of open data policies in government, business and civil society. Read more about Open Data Day [here](http://opendataday.org).
 
