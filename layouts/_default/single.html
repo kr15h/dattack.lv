@@ -26,7 +26,11 @@
 		{{ .Content }}
 	</div><!-- /.content -->
 
-	{{ if ne .Params.applyLink "" }}
+	{{ if ne .Params.applyPost "" }}
+		<div>
+			<p>{{ .Params.applyPost }}</p>
+		</div>
+	{{ else }}
 		<div class="apply-link">
 			<a class="btn btn-primary cta" href="{{ .Params.applyLink }}" title="{{ .Params.applyLabel }}">{{ .Params.applyLabel }}</a>
 		</div>

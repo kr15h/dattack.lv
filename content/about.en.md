@@ -3,6 +3,7 @@ title: "About Dattack"
 short: "Join the workshop, get inspired and create projects for the annual light festival Staro Riga that takes place in Riga, Latvia during one of the darkest months of the year – November!"
 applyLabel: "To application form!"
 applyLink: "https://goo.gl/forms/8qEgUOsqEfAYvp8H3"
+applyPost: "Application period has ended. Those who applied will be notified directly. Thank you!"
 ---
 
 The topic of the Dattack is creative use of data. How can we use open data sources for creative audio-visual expression? Where to look for data, what are the methods used to work with them; what tools can help turning data into visual, sonic and interactive experiences? Everybody is invited: visual and audio artists, designers, architects, developers and statisticians. 

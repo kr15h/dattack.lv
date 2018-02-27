@@ -3,6 +3,7 @@ title: "Par Dattack"
 short: "Piedalies, iedvesmojies un veido projektus ikgadējam gaismas festivālam “Staro Rīga”, kurš izgaismo Rīgu vienā no gada tumšākajiem mēnešiem – novembrī."
 applyLabel: "Uz pieteikuma formu!"
 applyLink: "https://goo.gl/forms/QwBsV35DXGDgm6WD2"
+applyPost: "Pieteikšanās laiks ir beidzies. Tie, kuri ir pieteikušies, tiks uzrunāti tieši. Paldies!"
 ---
 
 Darbnīcas “Dattack” tēma ir radoša datu izmantošana: kā mēs varam izmantot atvērto datu avotus (*open data sources*), lai veidotu radošus audiovizuālus risinājumus; kur meklēt datus, ar kādām metodēm tos apstrādāt; kādus rīkus izmantot, lai datus pārveidotu vizuālā, skaņas un interaktīvā piedzīvojumā. Aicināti ir visi: vizuālie un skaņas mākslinieki, dizaineri, arhitekti, programmētāji un statistiķi. 
