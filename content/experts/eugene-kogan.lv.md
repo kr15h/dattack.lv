@@ -1,5 +1,5 @@
 ---
-title: "Euene Kogan"
+title: "Gene Kogan"
 web: "http://genekogan.com"
 image: "/images/gene-kogan.jpg"
 location: "Berlīne, Vācija"
